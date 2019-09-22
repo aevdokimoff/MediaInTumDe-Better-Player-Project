@@ -17,7 +17,8 @@ var slidesLink = document.body.querySelectorAll('a.vtip[title^="slides.mp4"]');
 var url = 'http://127.0.0.1:8887?' + cameraLink[0].href + '#' + slidesLink[0].href;
 window.open(url, '_blank');
 }());
-```
+```  
+(`http://127.0.0.1:8887` is your localhost address and port)
 * The page with two videos side by side will open. Press `play` and enjoy the lecture
 
 ## P.S.
