@@ -24,5 +24,5 @@ window.open(url, '_blank');
 
 Feel free to use this tool and be happy with the lectures 👍
 
-Made by Artem Evdokimov, TUM, B.Sc. Informatics
+Made by Artem Evdokimov, TUM, B.Sc. Informatics  
 aevdokimoff.github.io
