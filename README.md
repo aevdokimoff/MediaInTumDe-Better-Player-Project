@@ -19,3 +19,10 @@ window.open(url, '_blank');
 }());
 ```
 * The page with two videos side by side will open. Press `play` and enjoy the lecture
+
+## P.S.
+
+Feel free to use this tool and be happy with the lectures 👍
+
+Made by Artem Evdokimov, TUM, B.Sc. Informatics
+aevdokimoff.github.io
