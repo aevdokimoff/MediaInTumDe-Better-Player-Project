@@ -1,5 +1,4 @@
 # grnvs-local-vid-server-project
-grnvs-local-vid-server-project
 
 ## About
 Hi! This is the GRNVS-Local-Vid-Server Project made for TUM Informatics students, who wants to watch the GRNVS lectures, but faces the inability to view them due to the inoperability of the player when playing two videos simultaneously. 
