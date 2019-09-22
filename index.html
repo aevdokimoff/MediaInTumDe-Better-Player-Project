@@ -39,8 +39,8 @@
 	document.getElementById('vvv1').src = videosArray[0];
 	document.getElementById('vvv2').src = videosArray[1];
 	
-	document.getElementById('one').volume = 1.0;
-	document.getElementById('two').volume = 1.0
+	document.getElementById('one').volume = 1.0; 
+	document.getElementById('two').volume = 1.0;
 
 		
 var video = document.querySelector('#one'),
@@ -50,6 +50,9 @@ var video = document.querySelector('#one'),
     ready = false,
     controls = document.querySelector('#controls'),
     scrub = document.querySelector('#scrub');
+    
+video.playbackRate = 2.0;
+video2.playbackRate = 2.0;
 
 addEvent(togglePlay, 'click', function () {
   if (ready) {
