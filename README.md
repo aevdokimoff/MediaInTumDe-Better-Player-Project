@@ -1,7 +1,7 @@
 # MediaInTumDe-Better-Player-Project
 
 ## About
-Hi! This is the MediaInTumDe-Better-Player Project made for TUM Informatics students, who wants to watch any lecture recording on [https://media.net.in.tum.de](https://media.net.in.tum.de) web site (e.g. GRNVS lectures), but faces the inability to view them due to the inoperability of the player when trying to play back camera and slides simultaneously. 
+Hi! This is the MediaInTumDe-Better-Player Project made for TUM Informatics students, who wants to watch any lecture recording on [https://media.net.in.tum.de](https://media.net.in.tum.de) web site **(e.g. GRNVS lectures)**, but faces the inability to view them due to the inoperability of the player when trying to play back camera and slides simultaneously. 
 
 ## Usage
 * Go to [https://media.net.in.tum.de](https://media.net.in.tum.de) in your browser and open the lecture you want to watch (you may try to reload the page a couple of times if it won't load the player on the media.net.in.tum.de website). 
