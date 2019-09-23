@@ -19,7 +19,7 @@ window.open(url, '_blank');
 }());
 ```  
 (`http://127.0.0.1:8887` is your localhost address and port)
-* The page with two videos side by side will open. Press `play` and enjoy the lecture
+* The page with two videos side by side will open. Press `play/pause` and enjoy the lecture
 
 ## P.S.
 
