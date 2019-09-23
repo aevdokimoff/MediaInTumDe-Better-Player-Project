@@ -12,7 +12,7 @@
 				margin-left: 5%;
 			}
 			.slider_style {
-			    width: 85%;
+			    width: 80%;
 			}
 			.controls_style {
 				margin-left: 5%;
@@ -40,9 +40,17 @@
 			    <source id="vvv2" src="" />
 			  </video>
 			  <p id="controls" class="controls_style">
-			    <input type="button" id="play" value="play">
+			    <input type="button" id="play" value=" play  ">
 			    <span id="position">00:00</span> / <span id="duration">loading...</span>
 			    <input type="range" value="0" id="scrub" class="slider_style" />
+			    <select id="speed-select" onchange="setSpeed(this)">
+				    <option value="0.5">0.5</option>
+				    <option value="0.8">0.8</option>
+				    <option value="1.0" selected>1.0</option>
+				    <option value="1.3">1.3</option>
+				    <option value="1.5">1.5</option>
+				    <option value="2.0">2.0</option>
+				</select>
 			  </p>
 			</article>
 		</section>
@@ -67,10 +75,13 @@
 			    ready = false,
 			    controls = document.querySelector('#controls'),
 			    scrub = document.querySelector('#scrub');
-			    
-			video.playbackRate = 2.0;
-			video2.playbackRate = 2.0;
-			
+				
+			function setSpeed(selectObject) {
+			    var value = selectObject.value; 
+			    video.playbackRate = value;
+				video2.playbackRate = value;
+			}
+
 			addEvent(togglePlay, 'click', function () {
 			  if (ready) {
 			    if (video.paused) {
@@ -83,7 +94,7 @@
 			      this.value = "pause";
 			    } else {
 			      video.pause();
-			      this.value = "play";
+			      this.value = " play  ";
 			    }
 			  }
 			});
