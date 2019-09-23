@@ -4,7 +4,7 @@
 Hi! This is the GRNVS-Local-Vid-Server Project made for TUM Informatics students, who wants to watch the GRNVS lectures, but faces the inability to view them due to the inoperability of the player when trying to play back camera and slides simultaneously. 
 
 ## Usage
-* Open [https://media.net.in.tum.de](https://media.net.in.tum.de) in your browser (you may try to reload the page a couple of times if it won't load the player on the media.net.in.tum.de website). 
+* Go to [https://media.net.in.tum.de](https://media.net.in.tum.de) in your browser and open the lecture you want to watch (you may try to reload the page a couple of times if it won't load the player on the media.net.in.tum.de website). 
 * Log in with your TUM ID
 * Start localhost on your PC and put the projects files (or just index.html) to your localhost root directory.  
 *(You can use [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) Extension)*
